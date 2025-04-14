@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "task-post-request"
+]
+
+resolver = "3"
