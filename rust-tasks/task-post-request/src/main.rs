@@ -23,7 +23,7 @@ fn main() {
         Ok(resp) => {
             let text = resp.text();
             match text {
-                Ok(content) => println!("Response: {}", content),
+                Ok(content) => println!("{content}"),
                 Err(err) => eprintln!("Failed to read response body: {}", err),
             }
         }
